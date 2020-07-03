@@ -28,6 +28,7 @@ body
   display: flex;
   justify-content: center;
   //align-items: center;
+  flex-wrap: wrap;
 }
 
 .titulohabilidades
@@ -141,4 +142,19 @@ a
 body 
 {
   background: white;
+}
+
+@media (max-width: 600px)
+{
+  .menu
+  {
+    display: none;
+  }
+
+  .habilidade
+  {
+    margin-left:  10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
 }
