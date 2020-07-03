@@ -3,6 +3,8 @@ body
   font-family: Arial;
   color: #4a566e;
   margin: 0;
+  background: #FFFFFF;
+  transition: background 1s;
 }
 
 .caixa1
@@ -39,9 +41,23 @@ body
   padding-bottom: 40px;
 }
 
+.tituloformacao
+{
+  color: #003399;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
 .caixa3
 {
   background: white;
+  //height: 800px;
+}
+
+.caixa4
+{
+  background: #003399;
   //height: 800px;
 }
 
@@ -117,6 +133,27 @@ a
   padding-left:   10px;
 }
 
+.formacao
+{
+  background: #003399;
+  height: 50px;
+  width:  50px;
+  border-radius: 50%;
+  margin-left:  50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.forma
+{
+  background: #003399;
+  height: 5px;
+  width:  600px;
+  //margin-left:  px;
+  //margin-right: 50px;
+  text-align: center;
+}
+
 .subtitulohabilidades
 {
   color: #003399;
@@ -124,6 +161,8 @@ a
 
 .titulocontato
 {
+  padding-top: 20px;
+  color: white;
   text-align: center;
 }
 
@@ -136,7 +175,9 @@ a
 .ctopo
 {
   text-align: right;
-  padding-top: 400px;
+  padding-top: 100px;
+  margin-right: 20px;
+  padding-bottom: 20px;
 }
 
 body 
