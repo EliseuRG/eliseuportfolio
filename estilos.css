@@ -1,0 +1,144 @@
+body
+{
+  font-family: Arial;
+  color: #4a566e;
+  margin: 0;
+}
+
+.caixa1
+{
+  background: white;
+  //height: 300px;
+  padding-top: 30px;
+  padding-bottom: 80px;
+  text-align: center;
+  background: url(background.png);
+  background-size: cover;
+}
+
+.caixa2
+{
+  background: #003399;
+  //height:800px;
+  padding-bottom: 50px;
+}
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+}
+
+.titulohabilidades
+{
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.caixa3
+{
+  background: white;
+  //height: 800px;
+}
+
+.foto 
+{
+  //display: block;
+  //margin-left: auto;
+  //margin-right: auto;
+  width:  150px;
+  height: 150px;
+  border-radius:100%;
+  border:5px solid #003399;
+}
+
+.menu
+{
+  height: 20px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  text-align: right;
+  font-size: 16px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #4a566e;
+  margin-left: 20px;
+}
+
+.sobre:hover
+{
+  color: #003399;
+  font-size: 16.2px;
+}
+
+.habilidades:hover
+{
+  color: #003399;
+  font-size: 16.2px;
+}
+
+.contatos:hover
+{
+  color: #003399;
+  font-size: 16.2px;
+}
+
+.titulo 
+{
+  text-align: center;
+  color: #003399;
+  font-size: 48px
+}
+
+.paragrafo 
+{
+  text-align: center;
+  //color: black;
+}
+
+.habilidade
+{
+  background: white;
+  height: 500;
+  width:  300px;
+  border-radius: 30px;
+  margin-left:  50px;
+  margin-right: 50px;
+  text-align: center;
+  padding-top:    40px;
+  padding-right:  10px;
+  padding-left:   10px;
+}
+
+.subtitulohabilidades
+{
+  color: #003399;
+}
+
+.titulocontato
+{
+  text-align: center;
+}
+
+.topo
+{
+  width:  50px;
+  height: 50px;
+}
+
+.ctopo
+{
+  text-align: right;
+  padding-top: 400px;
+}
+
+body 
+{
+  background: white;
+}
